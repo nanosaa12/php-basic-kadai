@@ -18,8 +18,8 @@
       }
 
       public function __construct($name, $price) {
-        $this->price = $price;
         $this->name = $name;
+        $this->price = $price;
       }
     }
 
@@ -50,8 +50,8 @@
     print_r($animal);
     echo '<br>';
 
-    $animal->set_height(60);
     $food->set_price(250);
+    $animal->set_height(60);
     ?>
   </p>
 </body>

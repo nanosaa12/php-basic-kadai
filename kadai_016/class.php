@@ -26,11 +26,11 @@
     print_r($food);
     echo '<br>';
 
+
     class Animal {
       private $name;
       private $height;
       private $weight;
-
       
       public function show_height() {
         echo $this->height . '<br>';
@@ -43,9 +43,11 @@
       }
     }
 
+    
     $animal = new Animal('dog', 60, 5000);
     print_r($animal);
     echo '<br>';
+
     $animal->show_height();
     $food->show_price();
     ?>
